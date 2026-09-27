@@ -1,0 +1,7 @@
+{
+  "id": "genex-google-calendar",
+  "name": "Google Calendar",
+  "description": "Google Calendar integration for OpenClaw",
+  "version": "0.1.0",
+  "main": "dist/index.js"
+}
