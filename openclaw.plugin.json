@@ -3,5 +3,26 @@
   "name": "Google Calendar",
   "description": "Google Calendar integration for OpenClaw",
   "version": "0.1.0",
-  "main": "dist/index.js"
+  "main": "dist/index.js",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "clientId": {
+        "type": "string"
+      },
+      "clientSecret": {
+        "type": "string"
+      },
+      "redirectUri": {
+        "type": "string"
+      },
+      "tokenPath": {
+        "type": "string"
+      },
+      "authStatePath": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
 }
